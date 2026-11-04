@@ -1,4 +1,4 @@
-# ISM2411 — Python for Business
+# ISM2411 - Python for Business
 
 **Name:** Ernesto Espinosa
 
@@ -28,9 +28,15 @@ python week07/functions.py
 
 ### 1.
 
-I used `git log --oneline` to review my commit history. --- fc0ee26 (HEAD -> main, origin/main, origin/HEAD) add module 7 functions: calculate_tax, apply_discount, final_price
+I used `git log --oneline` to review my commit history.
+
+```text
+fc0ee26 (HEAD -> main, origin/main, origin/HEAD) add module 7 functions: calculate_tax, apply_discount, final_price
 fd7a9a0 add .gitignore for Python and OS files
-a076c61 Initial commit --- My commit messages describe the work completed, including adding a `.gitignore` file and adding the Module 7 functions. Clear commit messages can help a hiring manager understand my workflow and see that I save changes in organized, meaningful steps. They can see clearly every change small or big that I made to double check my work.
+a076c61 Initial commit
+```
+
+If I were hiring someone, this history would tell me that they organize their work into separate commits and use clear messages to explain their changes. It shows that they set up the repository, added a `.gitignore` file, and added their Module 7 functions in an organized way. This shows that a manager can clearly see changes and organization neatly in all work being done.
 
 ### 2. 
 
@@ -38,4 +44,4 @@ Using Git helps me to save checkpoints as I work instead of making changes witho
 
 ### 3. 
 
-I could add `.vscode/' to my `.gitignore` file. Tracking this file is unnecessary because they add clutter to the repository and are practially useless to the actual code and are not being used. 
+I could add .venv/ to my `.gitignore` file. Tracking this file is unnecessary because they add clutter to the repository and are practially useless to the actual code and are not being used. 
